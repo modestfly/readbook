@@ -15,6 +15,7 @@
 		52805CE9211AF38D00584A79 /* ReadBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52805CE8211AF38D00584A79 /* ReadBookUITests.m */; };
 		52805CFD211D1F1300584A79 /* RBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52805CFC211D1F1300584A79 /* RBBaseViewController.m */; };
 		52805D01211D200A00584A79 /* RBHttpRequestService.m in Sources */ = {isa = PBXBuildFile; fileRef = 52805D00211D200A00584A79 /* RBHttpRequestService.m */; };
+		52805D04211D2ADC00584A79 /* RBURLSessionDataTaskWapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 52805D03211D2ADC00584A79 /* RBURLSessionDataTaskWapper.m */; };
 		AC8EB9FD21706123928ED59D /* libPods-ReadBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4C3360266ADC9BAE9557FE /* libPods-ReadBook.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,8 @@
 		52805CFC211D1F1300584A79 /* RBBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBBaseViewController.m; sourceTree = "<group>"; };
 		52805CFF211D200A00584A79 /* RBHttpRequestService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBHttpRequestService.h; sourceTree = "<group>"; };
 		52805D00211D200A00584A79 /* RBHttpRequestService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBHttpRequestService.m; sourceTree = "<group>"; };
+		52805D02211D2ADC00584A79 /* RBURLSessionDataTaskWapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBURLSessionDataTaskWapper.h; sourceTree = "<group>"; };
+		52805D03211D2ADC00584A79 /* RBURLSessionDataTaskWapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBURLSessionDataTaskWapper.m; sourceTree = "<group>"; };
 		67FEE0462A94797B57976D07 /* Pods-ReadBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReadBook/Pods-ReadBook.release.xcconfig"; sourceTree = "<group>"; };
 		B9D65D691869587996924E06 /* Pods-ReadBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReadBook/Pods-ReadBook.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -187,6 +190,8 @@
 			children = (
 				52805CFF211D200A00584A79 /* RBHttpRequestService.h */,
 				52805D00211D200A00584A79 /* RBHttpRequestService.m */,
+				52805D02211D2ADC00584A79 /* RBURLSessionDataTaskWapper.h */,
+				52805D03211D2ADC00584A79 /* RBURLSessionDataTaskWapper.m */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -350,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52805D04211D2ADC00584A79 /* RBURLSessionDataTaskWapper.m in Sources */,
 				52805CC9211AF38B00584A79 /* ViewController.m in Sources */,
 				52805D01211D200A00584A79 /* RBHttpRequestService.m in Sources */,
 				52805CD4211AF38C00584A79 /* main.m in Sources */,
