@@ -18,23 +18,27 @@ PODS:
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
   - SDWebImage/Core (4.4.2)
+  - TesseractOCRiOS (4.0.0)
 
 DEPENDENCIES:
-  - AFNetworking (= 3.2.1)
-  - Masonry (= 1.1.0)
-  - SDWebImage (= 4.4.2)
+  - AFNetworking (~> 3.2.1)
+  - Masonry (~> 1.1.0)
+  - SDWebImage (~> 4.4.2)
+  - TesseractOCRiOS (~> 4.0.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - Masonry
     - SDWebImage
+    - TesseractOCRiOS
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  TesseractOCRiOS: 90638afbe43d082433f2e76b384c7901d23956df
 
-PODFILE CHECKSUM: be14835891ee2619d6bb839341d6bc4569bed91e
+PODFILE CHECKSUM: c8ade5d9369de51c774a94d5898a35e560e83755
 
 COCOAPODS: 1.5.3

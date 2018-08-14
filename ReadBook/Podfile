@@ -1,8 +1,9 @@
 platform :ios, '8.0'
 target "ReadBook" do
 
-pod 'AFNetworking', '3.2.1'
-pod 'SDWebImage', '4.4.2'
-pod 'Masonry', '1.1.0'
+pod 'AFNetworking', '~> 3.2.1'
+pod 'SDWebImage', '~> 4.4.2'
+pod 'Masonry', '~> 1.1.0'
+pod 'TesseractOCRiOS', '~> 4.0.0'
 
 end
